@@ -21,11 +21,11 @@ MongoClient.connect(
         //     console.log('Unable to fetch todos', err);
         // });
 
-        db.collection('Todos').find().count().then((docs) => {
-            console.log('Todos Count:', docs);
-        }, (err) => {
-            console.log('Unable to fetch todos', err);
-        });        
+        // db.collection('Todos').find().count().then((docs) => {
+        //     console.log('Todos Count:', docs);
+        // }, (err) => {
+        //     console.log('Unable to fetch todos', err);
+        // });        
 
 
         //client.close();
