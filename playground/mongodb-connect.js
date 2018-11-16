@@ -6,7 +6,7 @@ console.log(obj);
 
 MongoClient.connect(
     'mongodb://localhost:27017/TodoApp', 
-    { useNewUrlParser: true }, 
+    // { useNewUrlParser: true }, 
     (err, client) => {
         if (err) {
             return console.log('Unable to connect to MongoDB server');
