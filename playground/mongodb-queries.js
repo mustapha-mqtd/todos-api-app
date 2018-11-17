@@ -27,12 +27,12 @@ var id = '5bef43ae3dd03505d9c0b7b4';
 //     console.log('ID not found.');
 // });
 
-User.findById('5bedf9fdbcae890563aba170').then((user) =>{
-    if(!user){
-        return console.log('Unable to find user');
-    }
+// User.findById('5bedf9fdbcae890563aba170').then((user) =>{
+//     if(!user){
+//         return console.log('Unable to find user');
+//     }
 
-    console.log(JSON.stringify(user, undefined, 3));
-}, (e) => {
-    console.log(e);
-})
+//     console.log(JSON.stringify(user, undefined, 3));
+// }, (e) => {
+//     console.log(e);
+// })
